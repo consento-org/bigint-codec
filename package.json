@@ -1,0 +1,33 @@
+{
+  "name": "bigint-codec",
+  "version": "1.0.0",
+  "description": "codecs compatible de-/encoder for bigints.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "npm run lint && npm run cover",
+    "lint": "standard",
+    "unit": "node test.mjs",
+    "cover": "c8 npm run unit"
+  },
+  "keywords": [
+    "binary",
+    "bigint",
+    "codec"
+  ],
+  "devDependencies": {
+    "c8": "^7.4.0",
+    "fresh-tape": "^5.0.4",
+    "standard": "^16.0.3"
+  },
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consento-org/bigint-codec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/consento-org/bigint-codec/issues"
+  },
+  "homepage": "https://github.com/consento-org/bigint-codec#readme"
+}
