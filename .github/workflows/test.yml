@@ -8,21 +8,21 @@ jobs:
     strategy:
       matrix:
         include:
-          - id: ubuntu:node:10
+          - id: ubuntu:node:12
             build: true
             os: ubuntu-latest
             type: node
-            node-version: 10
-          - id: windows:node:12
+            node-version: 12
+          - id: windows:node:14
             build: false
             os: windows-latest
             type: node
-            node-version: 12
-          - id: ubuntu:node:14
+            node-version: 15
+          - id: ubuntu:node:15
             build: true
             os: ubuntu-latest
             type: node
-            node-version: 14
+            node-version: 15
 
     steps:
     - uses: actions/checkout@v2
