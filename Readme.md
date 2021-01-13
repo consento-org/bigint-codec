@@ -1,6 +1,6 @@
-# bigint-codec
+# @consento/bigint-codec
 
-`bigint-codec` is a [codecs][codecs] compatible encode and decoder for [BigInt][bigint] numbers.
+`@consento/bigint-codec` is a [codecs][codecs] compatible encode and decoder for [BigInt][bigint] numbers.
 
 [codecs]: (https://github.com/mafintosh/codecs)
 [bigint]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
@@ -8,7 +8,7 @@
 ## Usage
 
 ```javascript
-import bigint from 'bigint-codec'
+import bigint from '@consento/bigint-codec'
 
 bigint.decode(
   bigint.encode(256n)
