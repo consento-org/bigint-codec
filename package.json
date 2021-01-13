@@ -1,5 +1,5 @@
 {
-  "name": "bigint-codec",
+  "name": "@consento/bigint-codec",
   "version": "1.0.0",
   "description": "codecs compatible de-/encoder for bigints.",
   "main": "index.mjs",
