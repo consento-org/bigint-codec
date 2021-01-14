@@ -95,4 +95,4 @@ function decodeBytes (bytes) {
   return result
 }
 
-module.exports = createCodec('big-int-be', encodeBytes, decodeBytes)
+module.exports = createCodec('bigIntBE', encodeBytes, decodeBytes)

@@ -1,4 +1,4 @@
 import { Codec } from './lib'
 
-const codec: Codec<'big-int-be'>
+const codec: Codec<'bigIntBE'>
 export = codec

@@ -26,4 +26,4 @@ function decodeBytes (bytes) {
   return result >> 1n
 }
 
-module.exports = createCodec('big-int-quick', encodeBytes, decodeBytes)
+module.exports = createCodec('bigIntQuick', encodeBytes, decodeBytes)

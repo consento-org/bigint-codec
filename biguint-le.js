@@ -21,4 +21,4 @@ function decodeBytes (bytes) {
   return result
 }
 
-module.exports = createCodec('big-uint-le', encodeBytes, decodeBytes)
+module.exports = createCodec('bigUintLE', encodeBytes, decodeBytes)

@@ -45,4 +45,4 @@ function decodeBytes (bytes) {
   return result
 }
 
-module.exports = createCodec('big-int-le', encodeBytes, decodeBytes)
+module.exports = createCodec('bigIntLE', encodeBytes, decodeBytes)

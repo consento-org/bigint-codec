@@ -32,4 +32,4 @@ function decodeBytes (bytes) {
   return result
 }
 
-module.exports = createCodec('big-uint-be', encodeBytes, decodeBytes)
+module.exports = createCodec('bigUintBE', encodeBytes, decodeBytes)
