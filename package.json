@@ -2,17 +2,39 @@
   "name": "@consento/bigint-codec",
   "version": "1.0.1",
   "description": "codecs compatible de-/encoder for bigints.",
-  "main": "index.mjs",
-  "type": "module",
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js",
+    "./bigint-be": "./bigint-be.js",
+    "./bigint-le": "./bigint-le.js",
+    "./bigint-quick": "./bigint-quick.js",
+    "./biguint-be": "./biguint-be.js",
+    "./biguint-le": "./biguint-le.js",
+    "./lib": "./lib.js"
+  },
   "scripts": {
     "test": "npm run lint && npm run cover",
     "lint": "standard",
-    "unit": "node test.mjs",
+    "unit": "node test/index.js",
     "cover": "c8 npm run unit"
   },
   "keywords": [
     "binary",
     "bigint",
+    "bigint-le",
+    "bigint-be",
+    "biguint-le",
+    "biguint-be",
+    "big uint",
+    "big int",
+    "big integer",
+    "rust-compatible",
+    "big endian",
+    "little endian",
+    "endianess",
+    "uint8array",
+    "buffer",
     "codec"
   ],
   "devDependencies": {
