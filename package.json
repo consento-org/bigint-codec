@@ -1,6 +1,6 @@
 {
   "name": "@consento/bigint-codec",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "codecs compatible de-/encoder for bigints.",
   "main": "index.js",
   "type": "commonjs",
@@ -16,7 +16,7 @@
   "scripts": {
     "test": "npm run lint && npm run cover",
     "lint": "standard",
-    "unit": "node test/index.js",
+    "unit": "fresh-tape test/*.js",
     "cover": "c8 npm run unit"
   },
   "keywords": [
