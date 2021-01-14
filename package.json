@@ -1,6 +1,6 @@
 {
   "name": "@consento/bigint-codec",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "codecs compatible de-/encoder for bigints.",
   "main": "index.js",
   "type": "commonjs",
